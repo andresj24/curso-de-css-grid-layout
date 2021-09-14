@@ -22,56 +22,92 @@
   box-sizing: border-box;
 }
 
+.container1 {
+  @extend .container;
+  text-align: left;
+  line-height: 180px;
+}
+
 .element1 {
   @extend .element;
   background: papayawhip;
-  margin: 0;
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: top;
 }
 
 .element2 {
   @extend .element;
   background: papayawhip;
-  margin: 60px 0;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .element3 {
   @extend .element;
   background: papayawhip;
-  margin: 120px 0;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.container2 {
+  @extend .container;
+  text-align: center;
+  line-height: 180px;
 }
 
 .element4 {
   @extend .element;
   background: pink;
-  margin: 0 auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
 }
 
 .element5 {
   @extend .element;
   background: pink;
-  margin: 60px auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .element6 {
   @extend .element;
   background: pink;
-  margin: 120px auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.container3 {
+  @extend .container;
+  text-align: right;
+  line-height: 180px;
 }
 
 .element7 {
   @extend .element;
   background: lightcyan;
-  margin: 0 0 0 auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
 }
 
 .element8 {
   @extend .element;
   background: lightcyan;
-  margin: 60px 0 0 auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .element9 {
   @extend .element;
   background: lightcyan;
-  margin: 120px 0 0 auto;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
 }
